@@ -1,0 +1,41 @@
+
+Veritabanı, ham gözlemlerin, işlenmemiş gerçeklerin veya 
+izlenimlerin temsil edildiği harf, rakam, sembol ve işaretler 
+yardımıyla düzenlenmiş, mantıksal ve fiziksel olarak tanımlanmış bir veri bütünüdür. 
+Veritabanı Yönetim Sistemi (VTYS) ise bu veritabanlarını tanımlama, 
+oluşturma, işlem yapma, kullanıcı yetkilerini belirleme, bakım ve yedekleme gibi görevleri 
+yerine getirmek için geliştirilmiş programlar bütünüdür. 
+Birlikte çalıştıklarında ise veritabanı sistemi oluşur.
+
+Geleneksel dosya sistemleri ile veritabanı yönetim sistemleri arasındaki farklar şu şekildedir:
+Geleneksel dosya sistemlerinde veriler ayrı ayrı dosyalarda saklanırken, 
+veritabanı yönetim sistemlerinde veriler birbiriyle ilişkili olarak düzenlenir. 
+Geleneksel dosya sistemlerinde veri tekrarı ve tutarsızlık sorunları yaşanabilirken, 
+veritabanı yönetim sistemleri bu sorunları önler. 
+Veritabanı yönetim sistemleri aynı zamanda veri paylaşımını kolaylaştırır, 
+güvenlik sağlar ve standart uygulamaları destekler.
+
+Veritabanı yönetim sistemleri, maliyet açısından geleneksel dosya sistemlerine 
+göre dezavantajlıdır. VTYS için gereken yüksek başlangıç yatırımları, veri 
+güvenliği sağlama maliyeti ve diğer sabit maliyetler dezavantajları oluşturur. 
+Bu nedenle, basit ve iyi tanımlanmış veritabanı uygulamaları için geleneksel dosya 
+sistemlerini kullanmak daha avantajlı olabilir.
+
+Veritabanı kullanıcıları üç gruba ayrılır: Veritabanı yöneticisi,
+veritabanı tasarımcısı, ve son kullanıcılar. Veritabanı yöneticisi,
+veritabanına erişim yetkilerini belirler ve güvenliği sağlar. 
+Veritabanı tasarımcısı, veritabanında saklanacak verilerin tanımlanmasından 
+ve uygun yapıların seçilmesinden sorumludur. Son kullanıcılar ise sorgulama, 
+güncelleme veya rapor oluşturma gibi işlemleri gerçekleştiren kullanıcılardır.
+
+Veritabanı yönetim sistemlerinin mimarisi üç düzeyde tanımlanır: İçsel (fiziksel) düzey,
+kavramsal düzey ve dışsal (görünüm) düzey. İçsel düzey, veritabanının fiziksel depolama 
+yapısını tanımlar. Kavramsal düzey, tüm veritabanının yapısını tanımlar ve 
+fiziksel detayları gizler. Dışsal düzey ise kullanıcı gruplarının ilgilendiği 
+veritabanı bölümlerini tanımlar. Veritabanı yönetim sistemleri, bu düzeyler arasında 
+veri bağımsızlığı sağlar.
+
+Veritabanı türleri hiyerarşik, ağ, ilişkisel ve nesneye yönelik olarak sıralanabilir.
+Yaygın olarak kullanılan veritabanı yönetim sistemi yazılımları ise MS SQL Server, 
+Oracle, MySQL, Sybase, MS Access, PostgreSQL, IBM DB2, Informix, Advantage gibi 
+çeşitli isimler içerir. Günümüzde sıklıkla kullanılan veritabanı dili ise SQL'dir (Structured Query Language).
