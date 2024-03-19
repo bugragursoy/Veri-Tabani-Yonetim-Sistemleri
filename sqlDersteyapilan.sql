@@ -24,8 +24,22 @@ ALTER TABLE uyeler ADD adresNo int constraint FK_uyeler_adres Foreign key (adres
 
 create table kutuphane(
 kutuphane int not null identity (1,1) PRIMARY KEY,
-kutuphaneIsmi nvarchar(50),
+kutuphaneIsmı nvarchar(50),
 aciklama nvarchar(500),
 adresNo int constraint FK_adresler_kutuphane FOREIGN KEY (adresNo) references adresler(adresNo)
-)
-select * from kutuphane
+);
+
+
+create table emanet(
+emanetNo int not null identity (1,1) PRIMARY KEY,
+emanetTarihi datetime,
+teslimTarihi datetime,
+uyeNo int constraint FK_uye_emanet FOREIGN KEY (uyeNo) references uyeler(uyeNo),
+);
+
+create table kitaplar(
+ISBN nvarchar(50) not null PRIMARY KEY,
+kitapAdi nvarchar(100),
+sayfaSayisi int,
+yayınTarihi datetime,
+);
