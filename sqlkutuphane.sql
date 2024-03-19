@@ -24,7 +24,7 @@ ALTER TABLE uyeler ADD adresNo int constraint FK_uyeler_adres Foreign key (adres
 
 create table kutuphane(
 kutuphane int not null identity (1,1) PRIMARY KEY,
-kutuphaneIsmý nvarchar(50),
+kutuphaneIsmi nvarchar(50),
 aciklama nvarchar(500),
 adresNo int constraint FK_adresler_kutuphane FOREIGN KEY (adresNo) references adresler(adresNo)
 )
